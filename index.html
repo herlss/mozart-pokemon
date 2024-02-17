@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozart ou Pokémon</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="assets/images/pokemon.webp" type="image/x-icon">
+    <script src="src/dom.js" type="module" defer></script>
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+    <main>
+        <div id="question">
+            <h1><em><span class="option" id="mozart">MOZART</span> <u>OU</u> <span class="option" id="pokemon">POKEMON</span></em></h1>
+            <p>Para escolher, clique nos nomes acima.</p>
+
+            <div id="question_content">
+                <h1 id="question_number">1.</h1>
+
+                <img src="assets/images/song before cynthia.png" alt="" id="question_sheet">
+
+                <div id="audio_player">
+                    <img src="assets/images/volume_icon.png" alt="volume_icon">
+                </div>
+
+                <div id="timer">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="result">
+            <div id="result-inner">
+                <h1 id="result_type"></h1>
+
+                <h2 id="result_name"></h2>
+
+                <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="result_video"></iframe>
+
+                <div id="next_button">
+                    <img src="assets/images/arrow_icon.png" alt="arrow_icon">
+                </div>
+            </div>
+        </div>
+
+        <div id="game_over">
+            <div id="over_inner">
+                <h1>Thanks for playing..</h1>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
